@@ -1,0 +1,140 @@
+/*Google Font Imported*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}      
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leaf-icon{
+    width:50px;
+    height:50px;
+    background-color:hsl(171deg 100% 41%);
+}
+
+.search-box{
+    width: 450px;
+    height: 25px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+hr{
+    height: 12px;
+    background-color: black;
+}
+
+.body-title{
+    padding-left: 123px;
+}
+
+.row1{
+    display: flex;
+    height: 250px;
+}
+
+.discover-box{
+    height: 250px;
+    background-color:hsl(171deg 100% 41%);
+    display: flex;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#succulents-1{
+    width:auto;
+    height:auto;
+}
+
+
+.discover-link{
+    display: flex;
+    padding-top: 30px;
+}
+
+.side-box{
+    flex: 2;
+}
+
+.aloe-m{
+    width: 440px;
+    height: 210px;
+    padding-left: 25px;
+}
+
+.aloe-box{
+    width: 220px;
+    height: 40px;
+    background-color: #00d1b2;
+    margin-left: 130px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #aae8d8;
+    margin-top: 15px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plant-list{
+    justify-content: space-evenly;
+}
+
+.plant-list-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+}
+
+#cookie{
+    display:flex;
+    border-style:solid;
+    position: relative;
+}
+
+.alert-icon{
+    margin: 10px;
+}
+
+.alert-message{
+    padding-top: 24px;
+    width: 900px;
+}
+
+.policy-accept{
+    width: 106px;
+    height: 70px;
+    cursor: pointer;
+    margin-left: 10px;
+}
