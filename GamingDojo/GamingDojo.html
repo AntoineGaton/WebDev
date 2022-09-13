@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Dojo</title>
+    <link rel="stylesheet" href="GamingDojo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="nav_container">
+        <div class="navbar">
+            <h1 class="navbar_title">Gaming<span>Dojo</span></h1>
+            <div class="navbar_links">
+                <select name="currency" class="currency-btn">
+                    <option>Euro&euro;</option>
+                    <option>USD $</option>
+                </select>
+                <a href="#" class="navbar-a-color"><img src="/images/cart-light.png" alt="cart_btn" class="navbar_imgs"><span id="cartcount">0</span></a>
+                <img src="/images/search-light.png" alt="search_btn" class="navbar_imgs">
+            </div>
+        </div>
+    </div>
+    <div class="body-container">
+        <div class="second-title">
+            <h2>Highlights</h2>
+
+        </div>
+        <div class="main_banner">
+            <img onclick="swapBack()" src="/images/chevron-left.png" alt="left arrow" class="arrows">
+            <img src="/images/stonepunk.png" alt="stone punk" class="bannerimg" id="banner-img">
+            <img onclick="swapImg()" src="/images/chevron-right.png" alt="right arrow" class="arrows">
+        </div>
+        <div class="swap-btns">
+            <div class="under-banner-bars"></div>
+            <div class="under-banner-bars" id="purple-bar"></div>
+            <div class="under-banner-bars"></div>
+            <div class="under-banner-bars"></div>
+        </div>
+        <div class="bottom-main-content">
+            <div class="left-row">
+                <div class="content">
+                    <img class="btm-imgs" src="/images/cafe-neko.png" alt="cafe neko">
+                    <h3>Cafe Neko: Gold Edition</h3>
+                    <img class="btm-icons" src="/images/windows.png" alt="windows">
+                    <img class="btm-icons" src="/images/apple.png" alt="mac">
+                </div>
+                <div class="btm-content">
+                    <button class="discount-btn">-10%</button>
+                    <p><span class="price-efct">&euro;8.19</span><br>
+                    <strong>&#8364;7.39</strong></p>
+                    <button class="buy-btn" onclick="add()">Buy</button>
+                </div>
+            </div>
+            <div class="mid-row">
+                <div class="content">
+                    <img class="btm-imgs" src="/images/pixel-ninjas-2.png" alt="pixel ninja 2">
+                    <h3>Pixel Ninja 2</h3>
+                    <p> <img class="btm-icons" src="/images/windows.png" alt="windows">
+                        <img class="btm-icons" src="/images/apple.png" alt="mac">
+                    </p>
+                </div>
+                <div class="btm-content">
+                    <button class="discount-btn">-20%</button>
+                    <p><span class="price-efct">&euro;14.98</span><br>
+                        <strong>&#8364;10.49</strong> </p>
+                    <button class="buy-btn" onclick="add()">Buy</button>
+                </div>
+            </div>
+            <div class="right-row">
+                <div class="content">
+                    <img class="btm-imgs" src="/images/stonepunk.png" alt="stone punk">
+                    <h3>Stonepunk 10000 BCE</h3>
+                    <p><img class="btm-icons" src="/images/windows.png" alt="windows">
+                    <img class="btm-icons" src="/images/apple.png" alt="mac">
+                    <img class="btm-icons" onclick="displayMessage()" src="/images/linux.png" alt="linux">
+                    </p>
+                </div>
+                <div class="btm-content">
+                    <button class="discount-btn">NEW</button>
+                    <p><strong>&euro;19.99</strong></p>
+                    <button class="buy-btn" onclick="add()">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="GamingDojo.js"></script>
+</body>
+</html>
